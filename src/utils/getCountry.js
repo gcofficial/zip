@@ -5,7 +5,7 @@
  */
 export default function(zip) {
     return fetch(
-      `http://api.zippopotam.us/us/${zip}`,
+      `https://api.zippopotam.us/us/${zip}`,
       {
         method: 'GET',
       }
